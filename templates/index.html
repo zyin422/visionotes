@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes Upload</title>
+</head>
+<body>
+    <h2>Upload Your Notes (.txt)</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".txt">
+        <button type="submit">Upload Notes</button>
+    </form>
+
+    {% if img_urls %}
+        <h2>Result:</h2>
+        {% for img_url in img_urls %}
+            <img src="{{ img_url }}" alt="Image result" style="max-width: 500px;">
+        {% endfor %}
+    {% endif %}
+
+    {% if notes_content %}
+        <h2>Your Uploaded Notes:</h2>
+        <pre>{{ notes_content }}</pre>
+        <pre>{{ keywords }}</pre>
+    {% endif %}
+</body>
+</html>
