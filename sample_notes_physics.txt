@@ -1,0 +1,6 @@
+Newton’s three laws of motion describe how forces affect the movement of objects. They form the core principles of classical mechanics used to explain everyday physical phenomena.
+The three laws:
+1. First Law (Inertia): An object at rest stays at rest, and an object in motion stays in motion unless acted upon by an external force.
+2. Second Law: The acceleration of an object is proportional to the net force acting on it and inversely proportional to its mass (F = ma).
+3. Third Law: For every action, there is an equal and opposite reaction.
+These laws are essential for understanding friction, gravity, and collisions.

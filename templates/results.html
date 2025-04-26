@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+</head>
+<body>
+    <h2>Image Results Based on Your Notes</h2>
+
+    {% if img_urls %}
+        {% for img_url in img_urls %}
+            <img src="{{ img_url }}" alt="Image result" style="max-width: 500px;">
+        {% endfor %}
+    {% else %}
+        <p>No images found.</p>
+    {% endif %}
+
+    <h2>Extracted Keywords:</h2>
+    <ul>
+    {% for keyword in keywords %}
+        <li>{{ keyword }}</li>
+    {% endfor %}
+    </ul>
+
+    <a href="/">Upload Another Notes File</a>
+</body>
+</html>

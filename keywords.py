@@ -34,7 +34,6 @@ def filter_keywords_with_spacy(keywords):
 
     for keyword in keywords:
         doc = nlp(keyword)
-        # Keep nouns, proper nouns, and verbs
         for token in doc:
             if token.pos_ in ['NOUN', 'PROPN'] or token.ent_type_:
                 filtered_keywords.append(keyword)
@@ -42,28 +41,30 @@ def filter_keywords_with_spacy(keywords):
 
     return filtered_keywords
 
-def keyword_extraction(notes_raw):
+def keyword_extraction(notes_raw, knum):
     notes_str = lemmatize_text(notes_raw)
+
+    top_num = max(5, knum * 4)
 
     keywords_1_1 = kw_model.extract_keywords(
         notes_str,
         keyphrase_ngram_range=(1, 1),
         stop_words='english',
-        top_n=10
+        top_n=top_num
     )
 
     keywords_1_2 = kw_model.extract_keywords(
         notes_str,
         keyphrase_ngram_range=(1, 2),
         stop_words='english',
-        top_n=20
+        top_n=top_num
     )
 
     keywords_1_3 = kw_model.extract_keywords(
         notes_str,
         keyphrase_ngram_range=(1, 3),
         stop_words='english',
-        top_n=20
+        top_n=top_num
     )
 
     keywords = []

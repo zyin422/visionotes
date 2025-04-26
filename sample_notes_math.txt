@@ -1,0 +1,9 @@
+Functions describe the relationship between two sets, assigning each input exactly one output. They are central to almost every area of mathematics and real-world modeling.
+Important aspects of functions:
+- The domain is the set of all possible input values.
+- The range is the set of all possible output values.
+- Functions can be represented as equations (e.g., f(x) = x²), graphs, or tables.
+Types of functions:
+- Linear functions have constant rates of change.
+- Quadratic functions form parabolas and involve squared terms.
+- Exponential functions grow rapidly and are key in fields like biology and finance.

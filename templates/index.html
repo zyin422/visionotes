@@ -7,22 +7,28 @@
 <body>
     <h2>Upload Your Notes (.txt)</h2>
 
-    <form method="POST" enctype="multipart/form-data">
+    <form action='{{ url_for("results") }}' method="POST" enctype="multipart/form-data">
         <input type="file" name="file" accept=".txt">
         <button type="submit">Upload Notes</button>
+        <select name="subject" id="subject">
+            <option value="">--Choose a Subject--</option>
+            <option value=" biology">Biology</option>
+            <option value=" chemistry">Chemistry</option>
+            <option value=" physics">Physics</option>
+            <option value=" math">Math</option>
+            <option value=" history">History</option>
+        </select>
+        <select name="level" id="level">
+            <option value="">--Choose Education Level--</option>
+            <option value=" middle school">Middle School</option>
+            <option value=" high school">High School</option>
+            <option value=" college">College</option>
+        </select>
+        <select name="images" id="images">
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+        </select>
     </form>
-
-    {% if img_urls %}
-        <h2>Result:</h2>
-        {% for img_url in img_urls %}
-            <img src="{{ img_url }}" alt="Image result" style="max-width: 500px;">
-        {% endfor %}
-    {% endif %}
-
-    {% if notes_content %}
-        <h2>Your Uploaded Notes:</h2>
-        <pre>{{ notes_content }}</pre>
-        <pre>{{ keywords }}</pre>
-    {% endif %}
 </body>
 </html>

@@ -1,0 +1,6 @@
+Work and energy are fundamental concepts describing how forces cause changes in motion and the ability to do tasks. Energy exists in many forms and can be transferred or transformed but not destroyed.
+Key concepts:
+- Work is done when a force causes an object to move (Work = Force × Distance × cosθ).
+- Kinetic energy is the energy of motion (KE = ½mv²).
+- Potential energy is stored energy due to position, such as gravitational potential energy (PE = mgh).
+The law of conservation of energy states that energy cannot be created or destroyed, only changed from one form to another.

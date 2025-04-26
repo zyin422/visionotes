@@ -1,0 +1,9 @@
+The periodic table is a chart that arranges all known chemical elements by increasing atomic number. Elements with similar properties are grouped together into columns known as groups or families.
+The general layout:
+- Metals are found on the left and center; they are good conductors of heat and electricity.
+- Nonmetals are located on the right and include important gases like oxygen and nitrogen.
+- Metalloids form a staircase between metals and nonmetals and have properties of both.
+Periodic trends include:
+- Atomic radius decreases across a period but increases down a group.
+- Ionization energy generally increases across a period and decreases down a group.
+- Electronegativity also shows periodic trends important for chemical bonding.

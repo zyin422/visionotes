@@ -1,0 +1,7 @@
+Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy. The process primarily takes place in the chloroplasts of plant cells.
+The overall chemical reaction is:
+6CO2+6H2O+light→C6H12O6+6O26CO_2 + 6H_2O + light \rightarrow C_6H_{12}O_6 + 6O_26CO2​+6H2​O+light→C6​H12​O6​+6O2​
+There are two main stages of photosynthesis:
+Light-dependent reactions: These occur in the thylakoid membranes and involve the conversion of light energy into ATP and NADPH.
+Calvin Cycle (light-independent reactions): Takes place in the stroma and is responsible for synthesizing glucose using ATP, NADPH, and CO₂.
+Chlorophyll is the primary pigment involved, absorbing mostly blue and red light while reflecting green.

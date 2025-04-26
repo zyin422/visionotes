@@ -1,0 +1,6 @@
+Chemical bonds are the forces that hold atoms together in compounds and molecules. They form when atoms share or transfer electrons to achieve a more stable electron configuration.
+Major types of bonds:
+- Ionic bonds occur when electrons are transferred from one atom to another, forming charged ions (e.g., NaCl).
+- Covalent bonds form when two atoms share electrons (e.g., H₂O).
+- Metallic bonds involve a 'sea' of shared electrons moving freely among metal ions.
+Bond properties like polarity, bond length, and bond energy influence the behavior and reactivity of substances.
